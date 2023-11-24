@@ -13,11 +13,8 @@ import org.eclipse.microprofile.openapi.annotations.tags.Tag;
                 description = "Generates ISBN book numbers",
                 version = "1.0",
                 contact = @Contact(name = "@esdras", url = "https://twitter.com/agoncal")),
-        externalDocs = @ExternalDocumentation(url = "https://github.com/EsdrasSantosDV/microservices-quarkus-study", description = "All the Microservice course code"),
-        tags = {
-                @Tag(name = "api", description = "Public API that can be used by anybody"),
-                @Tag(name = "numbers", description = "Anybody interested in numbers")
-        }
+        externalDocs = @ExternalDocumentation(url = "https://github.com/EsdrasSantosDV/microservices-quarkus-study", description = "All the Microservice course code")
+
 )
 public class NumberMicroservice extends Application {
 }
